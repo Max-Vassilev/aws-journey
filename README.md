@@ -4,9 +4,9 @@ Udemy course: https://www.udemy.com/course/introduction-to-cloud-computing-on-am
 
 ### Lesson 1: AWS IAM
 
-User: An individual with AWS access.
-User Group: A collection of users with the same permissions.
-Role: Temporary permissions that can be assumed when needed.
+- User: An individual with AWS access.
+- User Group: A collection of users with the same permissions.
+- Role: Temporary permissions that can be assumed when needed.
 
 
 **IAM User Groups**
