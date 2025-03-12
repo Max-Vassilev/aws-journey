@@ -14,7 +14,7 @@ Role: Temporary permissions that can be assumed when needed.
 2. Added Max to Admins to give him admin rights.
 3. Created Joe without adding him to Admins, so he had limited access.
 
-**Roles & AssumeRole Setup**
+**IAM Roles**
 1. Logged in as Max and created ec2-role with EC2 access.
 2. Gave Joe permission to assume ec2-role temporarily.
 3. Copied the ec2-role URL.
