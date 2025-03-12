@@ -9,8 +9,8 @@ User Group: A collection of users with the same permissions.
 Role: Temporary permissions that can be assumed when needed.
 
 
-**User Groups & Permissions**
-1. Created Admins group with AdministratorAccess.
+**IAM User Groups**
+1. Created Admins group with AdministratorAccess policy.
 2. Added Max to Admins to give him admin rights.
 3. Created Joe without adding him to Admins, so he had limited access.
 
