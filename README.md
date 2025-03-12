@@ -10,7 +10,7 @@ Udemy course: https://www.udemy.com/course/introduction-to-cloud-computing-on-am
 **IAM User Groups**
 
 1. I created "Admins" group with AdministratorAccess policy.
-2. Than I created user "Max" and addet him to Admins to give him admin rights.
+2. Then I created user "Max" and addet him to Admins to give him admin rights.
 
 **IAM Roles**
 
