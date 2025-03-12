@@ -7,12 +7,12 @@ Udemy course: https://www.udemy.com/course/introduction-to-cloud-computing-on-am
 - User Group: A collection of users with the same permissions.
 - Role: Temporary permissions that can be assumed when needed.
 
-**IAM User Groups**
+**IAM User Groups:**
 
 1. I created "Admins" group with AdministratorAccess policy.
 2. Then I created user "Max" and addet him to Admins to give him admin rights.
 
-**IAM Roles**
+**IAM Roles:**
 
 1. I created new user "Joe" without adding him to any group, so he had limited access.
 2. Logged in as "Max" and created ec2-role with EC2 access.
