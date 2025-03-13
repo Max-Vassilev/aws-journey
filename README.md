@@ -7,6 +7,10 @@ Udemy course: https://www.udemy.com/course/introduction-to-cloud-computing-on-am
 - User Group: A collection of users with the same permissions.
 - Role: Temporary permissions that can be assumed when needed.
 
+  **example:**
+  a user group: "Developers" (all devs get the same permissions).
+  a role: "S3ReadAccess" (any user or service can temporarily assume this role to read S3).
+
 **IAM User Groups:**
 
 1. I created "Admins" group with AdministratorAccess policy.
