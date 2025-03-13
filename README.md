@@ -8,6 +8,7 @@ Udemy course: https://www.udemy.com/course/introduction-to-cloud-computing-on-am
 - Role: Temporary permissions that can be assumed when needed.
 
   **example:**
+  
   a user group: "Developers" (all devs get the same permissions).
   a role: "S3ReadAccess" (any user or service can temporarily assume this role to read S3).
 
