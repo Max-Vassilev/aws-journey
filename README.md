@@ -12,7 +12,7 @@ Udemy course: https://www.udemy.com/course/introduction-to-cloud-computing-on-am
 
 ### Lesson 2: EC2
 
-- **EC2:** Virtual servers in the cloud.
+- **EC2:** Virtual server in the cloud.
 
 **Auto Scaling:**
 - **Launch Template:** A template for launching EC2 instances.
