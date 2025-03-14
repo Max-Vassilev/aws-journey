@@ -1,7 +1,7 @@
 # aws-journey
 Udemy course: https://www.udemy.com/course/introduction-to-cloud-computing-on-amazon-aws-for-beginners/
 
-### Lesson 1: AWS IAM
+### Lesson 1: IAM
 
 - **User:** An individual with AWS access.
 - **User Group:** A collection of users with the same permissions.
