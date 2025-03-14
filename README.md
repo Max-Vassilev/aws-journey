@@ -11,16 +11,6 @@ Udemy course: https://www.udemy.com/course/introduction-to-cloud-computing-on-am
 - A user group: "Developers" (all devs get the same permissions).
 - A role: "S3ReadAccess" (any user or service can temporarily assume this role to read S3).
 
-**IAM User Groups:**
-1. I created "Admins" group with AdministratorAccess policy.
-2. Then I created user "Max" and added him to Admins to give him admin rights.
-
-**IAM Roles:**
-1. I created new user "Joe" without adding him to any group, so he had limited access.
-2. Logged in as "Max" and created ec2-role with EC2 access.
-3. Gave "Joe" permission to assume ec2-role temporarily.
-4. Copied the ec2-role URL.
-5. Logged in as "Joe", pasted the URL, and assumed the role, gaining EC2 access.
 
 ### Lesson 2: EC2
 
