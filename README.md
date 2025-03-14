@@ -7,11 +7,6 @@ Udemy course: https://www.udemy.com/course/introduction-to-cloud-computing-on-am
 - **User Group:** A collection of users with the same permissions.
 - **Role:** Temporary permissions that can be assumed when needed.
 
-**Example:**
-- A user group: "Developers" (all devs get the same permissions).
-- A role: "S3ReadAccess" (any user or service can temporarily assume this role to read S3).
-
-
 ### Lesson 2: EC2
 
 - **EC2:** Virtual servers in the cloud.
