@@ -11,5 +11,10 @@ Udemy course: https://www.udemy.com/course/introduction-to-cloud-computing-on-am
 
 - **EC2:** Virtual servers in the cloud.
 
-- **Launch Template:** Template used by Auto Scaling Groups to launch EC2 instances.
-- **Auto Scaling Group:** Adjusts EC2 instances based on demand using a Launch Template.
+Auto Scaling:
+- **Launch Template:** A template for launching EC2 instances.
+- **Auto Scaling Group:** Adjusts the number of EC2 instances based on demand using a Launch Template.
+
+Load Balancing:
+- **Target Group:** A set of EC2 instances (or Auto Scaling Group) that receive traffic from the Load Balancer. It checks instance health before routing traffic.
+- **Load Balancer:** Distributes incoming traffic to EC2 instances in the Target Group to ensure smooth performance.
