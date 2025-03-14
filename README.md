@@ -14,14 +14,7 @@ Udemy course: https://www.udemy.com/course/introduction-to-cloud-computing-on-am
 
 ### Lesson 2: EC2
 
-**Steps Followed:**
-- Created a new IAM role `S3ReadOnly` with S3 read-only access for EC2.
-- Went back to EC2, selected the Linux instance.
-- Went to **Actions > Security > Modify IAM Role**.
-- Assigned the `S3ReadOnly` role to the instance.
+- **EC2:** Virtual servers in the cloud.
 
-**Problem Faced:**
-- The instance had no permissions to access S3.
-
-**Fix:**
-- Created and attached the `S3ReadOnly` IAM role to grant S3 read-only access.
+- **Launch Template:** Template used by Auto Scaling Groups to launch EC2 instances.
+- **Auto Scaling Group:** Adjusts EC2 instances based on demand using a Launch Template.
