@@ -6,6 +6,7 @@ Udemy course: https://www.udemy.com/course/introduction-to-cloud-computing-on-am
 - **User:** An individual with AWS access.
 - **User Group:** A collection of users with the same permissions.
 - **Role:** Temporary permissions that can be assumed when needed.
+- **Policy:** Defines permissions for AWS actions.
 
 
 ### Lesson 2: EC2
