@@ -11,7 +11,7 @@ Udemy course: https://www.udemy.com/course/aws-fundamentals/
 
 ## Lesson 2: Compute Services
 
-## EC2: Elastic Compute Cloud
+### EC2: Elastic Compute Cloud
 * **Definition:** Virtual servers in the cloud to run applications and websites.
 * **Example:** Start an EC2 instance to host a website or run an app.
 
