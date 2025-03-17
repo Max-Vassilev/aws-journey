@@ -1,23 +1,38 @@
 # aws-journey
+
 Udemy course: https://www.udemy.com/course/aws-fundamentals/
 
-
-### Lesson 1: IAM
+## Lesson 1: IAM
 
 - **User:** An individual with AWS access.
 - **User Group:** A collection of users with the same permissions.
 - **Role:** Temporary permissions that can be assumed when needed.
 - **Policy:** Defines permissions for AWS actions.
 
+## Lesson 2: Compute Services
 
-### Lesson 2: EC2
+### EC2: Elastic Compute Cloud
+* **Definition:** Virtual servers in the cloud to run applications and websites.
+* **Example:** Start an EC2 instance to host a website or run an app.
 
-- **EC2:** Virtual server in the cloud.
+### Auto Scaling
+* **Launch Template:** Template for launching EC2 instances.
+* **Auto Scaling Group:** Adjusts EC2 instances based on demand.
 
-**Auto Scaling:**
-- **Launch Template:** A template for launching EC2 instances.
-- **Auto Scaling Group:** Adjusts the number of EC2 instances based on demand using a Launch Template.
+### Load Balancing
+* **Target Group:** EC2 instances (or Auto Scaling Group) receiving traffic from the Load Balancer.
+* **Load Balancer:** Distributes incoming traffic to EC2 instances.
 
-**Load Balancing:**
-- **Target Group:** A set of EC2 instances (or Auto Scaling Group) that receive traffic from the Load Balancer. It checks instance health before routing traffic.
-- **Load Balancer:** Distributes incoming traffic to EC2 instances in the Target Group to ensure smooth performance.
+### Elastic Beanstalk
+* **Definition:** Elastic Beanstalk automates EC2 deployment, scaling, and load balancing. Just upload your code, and it handles everything, saving time and effort.
+
+### Lambda
+* **Definition:** A serverless compute service that runs code in response to events.
+* **Example:** Upload a file to S3, and Lambda prints "New file was added to the S3" every time a file is added.
+* **Note:** Ensure the Lambda function has an IAM role configured with the necessary access rights to interact with S3.
+
+
+## Lesson 3: Storage Services
+
+### S3: Simple Storage Service
+* **Definition:** Cloud storage for storing and retrieving data.
