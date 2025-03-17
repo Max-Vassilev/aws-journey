@@ -28,13 +28,13 @@ Udemy course: https://www.udemy.com/course/aws-fundamentals/
 - **Definition**: Virtual servers in the cloud to run applications.
 - **When to Use**: When you need full control over the server environment.
 
-### Auto Scaling:
-- **Definition**: Automatically adjusts the number of EC2 instances based on demand.
-- **When to Use**: To scale your application based on traffic.
+1. **Auto Scaling**:
+   - **Definition**: Automatically adjusts the number of EC2 instances based on demand.
+   - **When to Use**: To scale your application based on traffic.
 
-### Load Balancing:
-- **Definition**: Distributes traffic across multiple EC2 instances.
-- **When to Use**: To ensure high availability and efficient traffic distribution.
+2. **Load Balancing**:
+   - **Definition**: Distributes traffic across multiple EC2 instances.
+   - **When to Use**: To ensure high availability and efficient traffic distribution.
 
 ### Elastic Beanstalk:
 - **Definition**: Automates EC2 deployment, scaling, and load balancing.
@@ -63,4 +63,3 @@ Udemy course: https://www.udemy.com/course/aws-fundamentals/
 ### EFS - Elastic File System:
 - **Definition**: Scalable, shared file storage for EC2 instances.
 - **When to Use**: For shared file storage across multiple instances.
-
