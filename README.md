@@ -4,47 +4,63 @@ Udemy course: https://www.udemy.com/course/aws-fundamentals/
 
 ## Lesson 1: IAM
 
-- **User:** An individual with AWS access.
-- **User Group:** A collection of users with the same permissions.
-- **Role:** Temporary permissions that can be assumed when needed.
-- **Policy:** Defines permissions for AWS actions.
+### User:
+- **Definition**: An individual with AWS access.
+- **When to Use**: When you need to grant specific access to a person or application.
+
+### User Group:
+- **Definition**: A collection of users with the same permissions.
+- **When to Use**: When you want to assign the same set of permissions to multiple users.
+
+### Role:
+- **Definition**: Temporary permissions that can be assumed when needed. Roles can be assigned to a user or an AWS service (like EC2).
+- **When to Use**: When you need to grant temporary access to AWS resources, either to a user or an AWS service.
+
+### Policy:
+- **Definition**: A document that defines permissions for AWS resources.
+- **When to Use**: To specify what actions are allowed or denied for users, groups, or roles.
+
+---
 
 ## Lesson 2: Compute Services
 
-### EC2: Elastic Compute Cloud
-* **Definition:** Virtual servers in the cloud to run applications and websites.
-* **Example:** Start an EC2 instance to host a website or run an app.
+### EC2 - Elastic Compute Cloud:
+- **Definition**: Virtual servers in the cloud to run applications.
+- **When to Use**: When you need full control over the server environment.
 
-**Auto Scaling**
-* **Launch Template:** Template for launching EC2 instances.
-* **Auto Scaling Group:** Adjusts EC2 instances based on demand.
+### Auto Scaling:
+- **Definition**: Automatically adjusts the number of EC2 instances based on demand.
+- **When to Use**: To scale your application based on traffic.
 
-**Load Balancing**
-* **Target Group:** EC2 instances (or Auto Scaling Group) receiving traffic from the Load Balancer.
-* **Load Balancer:** Distributes incoming traffic to EC2 instances.
+### Load Balancing:
+- **Definition**: Distributes traffic across multiple EC2 instances.
+- **When to Use**: To ensure high availability and efficient traffic distribution.
 
-### Elastic Beanstalk
-* **Definition:** Elastic Beanstalk automates EC2 deployment, scaling, and load balancing. Just upload your code, and it handles everything, saving time and effort.
+### Elastic Beanstalk:
+- **Definition**: Automates EC2 deployment, scaling, and load balancing.
+- **When to Use**: When you want to deploy and manage apps without handling the infrastructure.
 
-### Lambda
-* **Definition:** A serverless compute service that runs code in response to events.
-* **Example:** Upload a file to S3, and Lambda prints "New file was added to the S3" every time a file is added.
-* **Note:** Ensure the Lambda function has an IAM role configured with the necessary access rights to interact with S3.
+### Lambda:
+- **Definition**: Serverless compute that runs code in response to events.
+- **When to Use**: For running code without managing servers (e.g., on file uploads).
+
+---
 
 ## Lesson 3: Storage Services
 
-### S3: Simple Storage Service
-* **Definition:** Cloud storage for storing and retrieving data.
-* **When to Use:** For static content and backup storage.
+### S3 - Simple Storage Service:
+- **Definition**: Scalable cloud storage for objects like images, videos, and backups.
+- **When to Use**: For static content and backup storage.
 
-### S3 Glacier
-* **Definition:** Low-cost archival storage for infrequently accessed data.
-* **When to Use:** For data that rarely needs access.
+### S3 Glacier:
+- **Definition**: Low-cost archival storage for infrequently accessed data.
+- **When to Use**: For data that rarely needs access.
 
-### EBS: Elastic Block Store
-* **Definition:** Persistent block-level storage attached to EC2 instances.
-* **When to Use:** For fast, low-latency storage for a single instance.
+### EBS - Elastic Block Store:
+- **Definition**: Persistent block-level storage attached to EC2 instances.
+- **When to Use**: For fast, low-latency storage for a single instance.
 
-### EFS: Elastic File System
-* **Definition:** Scalable, shared file storage for EC2 instances.
-* **When to Use:** For shared file storage across multiple instances.
+### EFS - Elastic File System:
+- **Definition**: Scalable, shared file storage for EC2 instances.
+- **When to Use**: For shared file storage across multiple instances.
+
