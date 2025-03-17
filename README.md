@@ -31,8 +31,20 @@ Udemy course: https://www.udemy.com/course/aws-fundamentals/
 * **Example:** Upload a file to S3, and Lambda prints "New file was added to the S3" every time a file is added.
 * **Note:** Ensure the Lambda function has an IAM role configured with the necessary access rights to interact with S3.
 
-
 ## Lesson 3: Storage Services
 
 ### S3: Simple Storage Service
 * **Definition:** Cloud storage for storing and retrieving data.
+* **When to Use:** For static content and backup storage.
+
+### S3 Glacier
+* **Definition:** Low-cost archival storage for infrequently accessed data.
+* **When to Use:** For data that rarely needs access.
+
+### EBS: Elastic Block Store
+* **Definition:** Persistent block-level storage attached to EC2 instances.
+* **When to Use:** For fast, low-latency storage for a single instance.
+
+### EFS: Elastic File System
+* **Definition:** Scalable, shared file storage for EC2 instances.
+* **When to Use:** For shared file storage across multiple instances.
