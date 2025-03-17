@@ -11,7 +11,7 @@ Udemy course: https://www.udemy.com/course/aws-fundamentals/
 
 ## Lesson 2: Compute Services
 
-### EC2: Elastic Compute Cloud
+## EC2: Elastic Compute Cloud
 * **Definition:** Virtual servers in the cloud to run applications and websites.
 * **Example:** Start an EC2 instance to host a website or run an app.
 
@@ -23,7 +23,7 @@ Udemy course: https://www.udemy.com/course/aws-fundamentals/
 * **Target Group:** EC2 instances (or Auto Scaling Group) receiving traffic from the Load Balancer.
 * **Load Balancer:** Distributes incoming traffic to EC2 instances.
 
-**Elastic Beanstalk**
+### Elastic Beanstalk
 * **Definition:** Elastic Beanstalk automates EC2 deployment, scaling, and load balancing. Just upload your code, and it handles everything, saving time and effort.
 
 ### Lambda
