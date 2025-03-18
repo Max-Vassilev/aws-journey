@@ -1,6 +1,5 @@
-# aws-journey
 
-Udemy course: https://www.udemy.com/course/aws-fundamentals/
+# aws-journey
 
 ## Lesson 1: IAM
 
@@ -67,3 +66,17 @@ Udemy course: https://www.udemy.com/course/aws-fundamentals/
 ### EFS - Elastic File System:
 - **Definition**: Scalable, shared file storage for EC2 instances.
 - **When to Use**: For shared file storage across multiple instances.
+
+---
+
+## Lesson 4: Database Services
+
+### Aurora and RDS:
+- **Definition**: Managed relational databases, with Aurora providing higher performance for MySQL and PostgreSQL.
+- **When to Use**: For scalable, managed relational databases with high availability.
+
+### DynamoDB:
+- **Definition**: Managed NoSQL database for high-throughput, low-latency.
+- **When to Use**: For scalable NoSQL applications with low-latency requirements.
+
+---
