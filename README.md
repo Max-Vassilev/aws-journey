@@ -36,6 +36,10 @@ Udemy course: https://www.udemy.com/course/aws-fundamentals/
    - **Definition**: Distributes traffic across multiple EC2 instances.
    - **When to Use**: To ensure high availability and efficient traffic distribution.
 
+3. **Security Group**:
+   - **Definition**: A virtual firewall that controls inbound and outbound traffic for EC2 instances.
+   - **When to Use**: To restrict access to EC2 instances based on IP, protocol, and port.
+
 ### Elastic Beanstalk:
 - **Definition**: Automates EC2 deployment, scaling, and load balancing.
 - **When to Use**: When you want to deploy and manage apps without handling the infrastructure.
