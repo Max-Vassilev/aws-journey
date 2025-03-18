@@ -1,4 +1,3 @@
-
 # aws-journey
 
 Udemy course: https://www.udemy.com/course/aws-fundamentals/
@@ -82,3 +81,21 @@ Udemy course: https://www.udemy.com/course/aws-fundamentals/
 - **When to Use**: For scalable NoSQL applications with low-latency requirements.
 
 ---
+
+## Lesson 5: Networking and Content Delivery
+
+### VPC - Virtual Private Cloud:
+- **Definition**: A private cloud network where you control your resources.
+- **When to Use**: For secure, isolated cloud environments.
+
+1. **Subnets**:
+   - **Definition**: Segments of a VPC’s IP range.
+   - **When to Use**: To organize and secure resources.
+
+2. **Route Tables**:
+   - **Definition**: Directs traffic in and out of subnets.
+   - **When to Use**: To manage data flow.
+
+3. **Internet Gateways**:
+   - **Definition**: Connects a VPC to the internet.
+   - **When to Use**: When VPC resources need internet access.
