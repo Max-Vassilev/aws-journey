@@ -1,6 +1,6 @@
 # aws-journey
 
-Udemy course: https://www.udemy.com/course/aws-fundamentals/
+Udemy course: [AWS Fundamentals](https://www.udemy.com/course/aws-fundamentals/)
 
 ## Lesson 1: IAM
 
@@ -99,3 +99,11 @@ Udemy course: https://www.udemy.com/course/aws-fundamentals/
 3. **Internet Gateways**:
    - **Definition**: Connects a VPC to the internet.
    - **When to Use**: When VPC resources need internet access.
+
+### DNS (Domain Name System):
+- **Definition**: A system that translates domain names (e.g., example.com) into IP addresses that computers use to identify each other.
+- **When to Use**: To make websites accessible with human-readable names instead of complex numerical IP addresses.
+
+### Amazon Route 53:
+- **Definition**: AWS’s scalable and highly available DNS service that routes user requests to applications running on AWS or other infrastructures.
+- **When to Use**: To manage domain registration, DNS routing, and health checking for web applications.
