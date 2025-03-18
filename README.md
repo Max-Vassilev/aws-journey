@@ -1,6 +1,8 @@
 
 # aws-journey
 
+Udemy course: https://www.udemy.com/course/aws-fundamentals/
+
 ## Lesson 1: IAM
 
 ### User:
